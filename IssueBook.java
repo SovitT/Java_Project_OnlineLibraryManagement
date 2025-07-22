@@ -13,12 +13,24 @@ import javax.swing.JOptionPane;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
+// Modified some modules by Kiran 
 
 /**
  *
  *
  */
+// public class IssueBook extends javax.swing.JFrame {
+//         PreparedStatement pst;
+//         ResultSet rs;
+//         Connection c=Connect.ConnectToDB();
+    
+//     public IssueBook() {
+//         initComponents();
+//         SimpleDateFormat  dat=new SimpleDateFormat("dd/MM/yyyy ");
+//          Date d=new Date();
+//          txtissuedate.setText(dat.format(d));
+         
+//     }
 public class IssueBook extends javax.swing.JFrame {
         PreparedStatement pst;
         ResultSet rs;
